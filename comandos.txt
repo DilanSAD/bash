@@ -1,0 +1,18 @@
+cat /etc/shells // Muestra los shells que puedo utilizar
+echo $SHELL // Muestra el Shell activo
+pwd // Indica la ruta actual
+cd ___ // Entrar a la ruta especificada
+cd .. // Salir 1 nivel 
+mrdir nombreCarpeta // Crear carpeta
+rm nombreCarpetaArchivo // Eliminar carpeta o archivo
+mv  nombreCarpetaArchivo // Mover carpeta o archivo
+cp nombreCarpetaArchivoOriginal nombreCopiaNueva // Copiar carpeta o archivo
+
+touch nombreArchivo.sh //  Crear archivo que es un Script
+chmod +x nombreArchivo.sh // Permite modificar el archivo para ser un ejecutable
+
+ls nombreArchivo // Permite ver el archivo
+ls -al nombreArchivo // Información de escritura, lectura, ejecución del archivo
+ls -l nombreArchivo // Más información fecha de creación, usuario…
+
+wc nombreArchivo // cuanta las líneas, palabras y caracteres de un archivo

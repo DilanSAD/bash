@@ -16,3 +16,12 @@ ls -al nombreArchivo // Información de escritura, lectura, ejecución del archi
 ls -l nombreArchivo // Más información fecha de creación, usuario…
 
 wc nombreArchivo // cuanta las líneas, palabras y caracteres de un archivo
+
+sudo apt install curl // Para instalar curl
+curl dirección // Para realizar peticiones
+
+bash -x nombreArchivo.sh // Muestra por consola el debugging del script 
+#! /bin/bash -x // Es lo mismo que arriba, usarlo desde el comienzo de mi script
+
+set -x // Comenzar debugging en un punto
+set +x // Terminar debugging en un punto

@@ -1,7 +1,6 @@
 #! /bin/bash
 
-# con lo de arriba indicamos el shell a utilizar
-
+# Con #! ____ indicamos el shell a utilizar
 : '
 # Indica que vamos a guardar en el archivo indicado
 echo "Hola mundo!" > hola.txt
